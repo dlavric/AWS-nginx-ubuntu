@@ -35,7 +35,8 @@ source "amazon-ebs" "basic-example" {
 # a build block invokes sources and runs provisioning steps on them.
 build {
   sources = ["source.amazon-ebs.basic-example"]
-  
+
+# install nginx  
   provisioner "shell" {
     inline = [
       "sudo apt-get install -y nginx"
