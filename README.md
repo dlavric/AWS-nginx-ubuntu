@@ -1,4 +1,4 @@
-# This repository setups an AWS EC2 with Ubuntu 16.04 and Nginx
+# This repository creates with Packer an AWS EBS-backed AMI with Ubuntu 16.04 and Nginx
 
 
 ## Prerequisites
