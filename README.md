@@ -7,29 +7,30 @@
 
 
 ## How to Use the Repo
+
 - Clone this repo:
 ```shell
 $ git clone git@github.com:dlavric/AWS-nginx-ubuntu.git
 ```
 
-- Go to the directory where the repo is stored
+- Go to the directory where the repo is stored:
 ```shell
 $ cd AWS-nginx-ubuntu
 ```
 
-- Export the AWS credentials
+- Export the AWS credentials:
 ```shell
-$ export AWS_ACCESS_KEY_ID=
-$ export AWS_SECRET_ACCESS_KEY=
-$ export AWS_SESSION_TOKEN=
+$ export AWS_ACCESS_KEY_ID="aws_access_key_id"
+$ export AWS_SECRET_ACCESS_KEY="aws_secret_access_key"
+$ export AWS_SESSION_TOKEN="aws_session_token"
 ```
 
-- Validate the template
+- Validate the template:
 ```shell
 $ packer validate example.pkr.hcl
 ```
 
-- Build the image with Packer
+- Build the image with Packer:
 ```shell
 $ packer build \
     -var 'ami_name=packer-tutorial' \
