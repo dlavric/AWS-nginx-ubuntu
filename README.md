@@ -9,12 +9,12 @@
 ## How to Use the Repo
 - Clone this repo:
 ```shell
-$ git clone git@github.com:dlavric/packer-nginx64.git
+$ git clone git@github.com:dlavric/AWS-nginx-ubuntu.git
 ```
 
 - Go to the directory where the repo is stored
 ```shell
-$ cd packer-nginx64
+$ cd AWS-nginx-ubuntu
 ```
 
 - Export the AWS credentials
