@@ -3,6 +3,8 @@
 # information about the various options for setting variables, see the template
 # [reference documentation](https://www.packer.io/docs/templates)
 
+# Tutorial for AWS with Packer
+
 variable "ami_name" {
   type    = string
   default = "packer-tutorial"
